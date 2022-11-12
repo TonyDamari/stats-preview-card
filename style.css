@@ -27,7 +27,8 @@ body {
 .card {
     margin: 5rem auto;
     border-radius: 5px;
-    width: 21rem;
+    max-width: 82rem;
+    width: auto;
     overflow: hidden;
     background: var(--dark-desaturated-blue);
 }
@@ -37,7 +38,7 @@ body {
     position: relative;
 }
 
-img{
+img {
     width: 100%;
 }
 
@@ -129,7 +130,7 @@ span {
         grid-row: 1/2;
     }
 
-    img{
+    img {
         width: auto;
     }
 
